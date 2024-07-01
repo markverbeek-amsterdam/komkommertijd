@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      cursor: {
+        "custom-image": 'url("/cucumber.png") 60 38, move',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
